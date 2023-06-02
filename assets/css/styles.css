@@ -312,7 +312,14 @@ img {
   fill: var(--first-color);
 }
 
+.homw__blob-img-container{
+  position: relative;
+}
+
 .homw__blob-img{
+  position: absolute;
+  top: 50px;
+  left: 70px;
   width: 170px;
 }
 

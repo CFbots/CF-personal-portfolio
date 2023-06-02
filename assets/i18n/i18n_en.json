@@ -12,7 +12,7 @@
     "home__scroll-name":"Scroll down",
     "about__title":"About Me",
     "about__subtitle":"My introduction",
-    "about__description":"Hi there! I'm Chi. I'm a junior software developer who is currently learning web technologies and UI / UX designt. Before entering the industry, I studied at Cornell Tech which located at the beautiful Roosevelt Island NY for a year, where myy research was mainly focusing on optimization and machine learning.",
+    "about__description":"Hi there! I'm Chi. I'm a junior software developer who is currently learning web technologies and UI / UX designt. Before entering the industry, I studied at Cornell Tech which located at the beautiful Roosevelt Island NY for a year, where my research was mainly focusing on optimization and machine learning.",
     "about__info-name1":"Years of <br /> experience",
     "about__info-name2":"Completed <br /> projects",
     "about__info-name3":"Companies <br /> worked",
@@ -54,6 +54,6 @@
     "email":"chifengiris@gmail.com",
     "email__address":"chifengiris@gmail.com",
     "location":"Location",
-    "location__detail":"Irvine, CA",
+    "location__detail":"Seattle, WA",
     "sns":"Wechat"
 }
