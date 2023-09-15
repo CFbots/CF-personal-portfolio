@@ -11,7 +11,7 @@
     "home__scroll-name":"往下滑",
     "about__title":"关于我",
     "about__subtitle":"简单介绍",
-    "about__description":"你好，很高兴认识你！我是一名初级软件工程师，目前正在学习网页开发和UI/UX设计。在进入这个行业之前，我在康奈尔大学学习运筹优化，数学模型和机器学习。",
+    "about__description":"你好，欢迎访问我的个人网站! 我是冯驰。我是一名初级软件开发人员，对制定创新解决方案充满热情。我会使用不同编程语言，包括TypeScript/JavaScript, Python, Java 等等。我同样拥有使用多种技术栈的经验，包括各种前端和服务器端框架。在进入这个行业之前，我在康奈尔大学学习生活。我的研究方向主要集中在运筹优化和机器学习。",
     "about__info-name1":"年工作经验",
     "about__info-name2":"完成项目",
     "about__info-name3":"公司任职",
@@ -19,7 +19,7 @@
     "skills__title":"技能",
     "skills__subtitle":"我的技能",
     "skills__title1":"前端开发",
-    "skills1__years":"1年经验",
+    "skills1__years":"1+年经验",
 
     "skills__title2":"后端开发",
     "skills2__years2":"1+年经验",
@@ -33,6 +33,8 @@
     "qualification2__title":"应用数学",
     "qualification2__subtitle":"加州大学戴维斯分校<br/>本科",
     "qualification3__title":"R&D实习",
+    "qualification_antra__title":"前端工程师",
+    "qualification_antra__subtitle":"Antra<br/>远程",
     "qualification3__subtitle":"We-Education<br/>纽约市，纽约州",
     "qualification4__title":"软件工程师",
     "qualification4__subtitle":"亚马逊 Luna<br/>尔湾，加州",
@@ -55,7 +57,9 @@
     "contact__subtitle":"与我联系",
     "email":"电子邮箱",
     "email__address":"chifengiris@gmail.com",
-    "location":"位置",
-    "location__detail":"尔湾，加州",
+    "location":"所在地",
+    "location__detail":"西雅图",
+    "phone":"电话", 
+    "phone__number":"+86 13730813005", 
     "sns":"微信"
 }

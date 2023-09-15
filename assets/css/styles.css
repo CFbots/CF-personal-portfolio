@@ -505,15 +505,19 @@ img {
 }
 
 .skills__css{
-  width: 80%;
+  width: 90%;
 }
 
 .skills__js{
-  width: 60%;
+  width: 90%;
 }
 
 .skills__react{
   width: 70%;
+}
+
+.skills__angular{
+  width: 90%;
 }
 
 .skills__python{
@@ -530,6 +534,10 @@ img {
 
 .skills__spring{
   width: 60%;
+}
+
+.skills__node{
+  width: 80%
 }
 
 .skills__close .skills_list{
@@ -1001,6 +1009,8 @@ img {
   }
   .about__img {
       width: 270px;
+      position: relative;
+      top: -15%;
   }
   .about__description {
       text-align: left;
