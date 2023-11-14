@@ -7,21 +7,15 @@ $(document).ready(function () {
         filePrefix: "i18n_",
         fileSuffix: "",
         forever: true,
-        callback: function () {
-            console.log("i18n is ready.");
-        },
     });
 
     /*Language toggle*/
     $("#translate").click(function (e) {
-        var a = $(e.target).val() == "cn" ? "en" : "cn";
-        var b = a == "cn"?"中/En":"En/中";
-        $(e.target).val(a);
-        // $("#nav__translate").text(b);
-        console.log($(e.target).val());
+        var lan = $(e.target).val() == "cn" ? "en" : "cn";
+        $(e.target).val(lan);
 
         $("[i18n]").i18n({
-            defaultLang: a,
+            defaultLang: lan,
             filePath: "./assets/i18n/",
         });
 
