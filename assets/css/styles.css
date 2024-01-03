@@ -428,6 +428,7 @@ img {
   text-align: center;
 }
 
+.contact__button,
 .about__buttons{
   display: flex;
   justify-content: center;
@@ -650,7 +651,9 @@ img {
 .portfolio__container{
   overflow: initial;
 }
-
+.portfolio__description__container{
+  margin: auto auto;
+}
 .portfolio__content{
   padding: 0 1.5rem;
 }
@@ -753,7 +756,7 @@ img {
   background-color: var(--input-color);
   border-radius: .5rem;
   padding: .75rem 1rem .25rem;
-  margin: 1rem auto;
+  margin: 1rem;
 }
 
 .contact__name {
@@ -893,7 +896,9 @@ img {
   .nav__menu {
       padding: 2rem .25rem 4rem;
   }
-
+  .contact__information__container {
+    grid-template-columns: auto;
+  }
   .nav__list {
       column-gap: 0;
   }
@@ -948,7 +953,7 @@ img {
   }
 }
 
-/* For medium devices 568px*/
+/* For small-medium devices 568px*/
 @media screen and (min-width: 568px){
   .home__content {
     grid-template-columns: max-content 1fr 1fr;
@@ -966,7 +971,6 @@ img {
   .about__description {
     text-align: left;
   }
-  .about__container,
   .skills__container{
       grid-template-columns: repeat(2, 1fr);
       column-gap: 5rem;
@@ -1055,6 +1059,7 @@ img {
       display: block;
   }
   .about__container {
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 5rem; 
   }
   .about__img {
@@ -1067,9 +1072,6 @@ img {
   }
   .about__info {
       justify-content: space-between;
-  }
-  .about__buttons {
-      justify-content: initial;
   }
   .qualification__tabs {
     justify-content: center;
@@ -1102,6 +1104,7 @@ img {
   } 
 }
 
+/* For large devices 768px*/
 @media screen and (min-width: 1024px) {
   .header,
   .main,
@@ -1131,9 +1134,12 @@ img {
   .swiper-container-horizontal > .swiper-pagination-bullets {
       bottom: -4.5rem
   }
-
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem; 
+  }
   .contact__form {
-      width: 460px; 
+      width: 620px; 
   }
   .contact__inputs {
       grid-template-columns: repeat(2, 1fr);
